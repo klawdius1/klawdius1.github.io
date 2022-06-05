@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css">
+		<title>SUPERTUBES</title>
+		<script src="script.js"></script>
+	</head>
+
+	<body>
+		<div id="sidebar">
+			<div class="toggle-btn" onclick="openmenu()">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<ul>
+				<li><a href="main.html">STUBES</a></li>
+				<li><a href="index.html">Tруба</a></li>
+				<li><a href="about.html">О нас</a></li>
+			</ul>
+		</div>
+		<div class = "supertop">
+			<div class = "title">
+				SUPERTUBES
+			</div>
+			<div class = "mainpagebutton">
+				<a href = "main.html">ГЛАВНАЯ</a>
+			</div>
+
+			<div class = "aboutbutton">
+				<a href="about.html">
+					О НАС
+				</a>
+			</div>
+		</div>
+
+		<div class="supermid">
+			
+			<div class="products">
+				<ul>
+					<li class = "product_img"><a href="index.html"><img src="pictures/tube.jpg">200$/м</a></li>
+					<li class = "product_img"><a href="index.html"><img src="pictures/tube.jpg">200$/м</a></li>
+					<li class = "product_img"><a href="index.html"><img src="pictures/tube.jpg">200$/м</a></li>
+					<li class = "product_img"><a href="index.html"><img src="pictures/tube.jpg">200$/м</a></li>
+				</ul>
+			</div>
+
+		</div>
+
+		<div class = "superbot">
+			<div class = "bottitle"><a href = "#">SUPERTUBES</a></div>
+		</div>
+
+		<script>
+			function openmenu() {
+				document.getElementById("sidebar").classList.toggle('active')
+			}
+		</script>
+
+	</body>
+
+</html>
